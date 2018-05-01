@@ -1,0 +1,94 @@
+
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin: 0;
+    background-color: #e5e2dc;
+}
+
+
+/*STYLE BANNER E TEXTO INTRO*/
+
+.conteudo-banner {
+	margin: auto;
+	background-image: url("../img/banner-gato.jpg");
+	width: 100vw;
+	height: 200px;
+}
+
+.titulo-site {
+	color: #ffffff;
+	text-shadow: 2px 2px #eaa717;
+	line-height: 200px;
+	margin: 0;
+	font-size: 8em;
+	text-align: center;
+}
+
+.texto-introducao {
+	margin: 30px auto 30px auto;
+	width: 70vw;
+	text-align: center;
+}
+
+.texto-p span {
+	font-weight: bold;
+}
+
+/*STYLE FEATURES */
+
+.container-features {
+	margin: 50px auto 50px auto;
+	text-align: center;
+}
+
+.img-thumb {
+	width: 20vw;
+}
+
+.cada-feature {
+	display: inline-block;
+	width: 20vw;
+	text-align: center;
+	margin: auto 20px;
+}
+
+/*STYLE FORMULARIO*/
+
+.form-contato {
+	width: 50vw;
+	background-color: #606266;
+	border: solid 2px #eaa717;
+	margin: auto;
+	margin-bottom: 30px;
+	padding: 10px;
+}
+
+.itens-contato {
+	text-align: center;
+}
+
+.itens-contato p {
+	color: white;
+	font-size: 1.5em;
+	margin: 0 0 10px;
+}
+
+.campo-email {
+	width: 300px;
+	height: 30px;
+}
+
+.botao-submit {
+    background-color: #eaa717;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 0.6em;
+}
+
+
+

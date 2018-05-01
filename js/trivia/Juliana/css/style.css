@@ -1,0 +1,30 @@
+body {
+	background-color: #ccc;
+}
+
+h1, #promptNome, #tituloResultados {
+	text-align: center;
+}
+
+.box {
+	width: 300px;
+	height: 100px;
+	border: solid 1px #000;
+	display: inline-block;
+	text-align: center;
+}
+
+.boxResultados {
+	width: 80%;
+	height: 400px;
+	margin: auto;
+	text-align: center;
+}
+
+.corCerta {
+	color: green;
+}
+
+.corErrada {
+	color: red;
+}
