@@ -9,39 +9,42 @@
 
 <body>
 
-<header>
-<h1>TRIVIA</h1>
-</header>
+	<header>
+		<h1>TRIVIA</h1>
+	</header>
 
-<section class="campos-formularios">
+	<section class="campos-formularios">
 
-<form name="form" id="form" action="">
-	<fieldset>
-Nome: <input type="text" name="nome">
-</fieldset>
-<fieldset>
-	<legend>Perguntas do quiz</legend>
-  nome do pato inimigo do pernalonga: <input type="text" name="resposta1"><br>
-  nome da amiga do Chaves: <input type="text" name="resposta2"><br>
-  cor do cabelo da Ju: <input type="text" name="resposta3"><br>
-  </fieldset>
-    <input type="button" onclick="pegarRespostas()" value="enviar">
+		<form name="form" id="form" action="">
+			<fieldset class="campo-nome">
+				Nome: <input type="text" name="nome" placeholder="Insira seu nome">
+			</fieldset>
+			<fieldset class="campos-perguntas">
+				<legend>Perguntas do quiz</legend>
+				nome do pato inimigo do Pernalonga: <input type="text" name="resposta1"><br>
+			  	nome da amiga do Chaves: <input type="text" name="resposta2"><br>
+				cor do cabelo da Ju: <input type="text" name="resposta3"><br>
+		  	</fieldset>
+		    <input type="button" onclick="pegarRespostas()" value="enviar">
+		</form>
 
-</form>
-</section>
+	</section>
 
-<h2 id="promptNome"></h2>
+	<section class="campos-respostas">
 
-<div class="boxResultados">
-	<div class="box">
-		<h3>Resultados Corretos</h3>	
-		<p id="resultadosCertos" class="corCerta"></p>
-	</div>
-	<div class="box">
-		<h3>Resultados Errados</h3>		
-		<p id="resultadosErrados" class="corErrada"></p>
-	</div>
-</div>
+		<h2 id="promptNome"></h2>
+		<div class="boxResultados">
+			<div class="box">
+				<h3>Resultados Corretos</h3>	
+				<p id="resultadosCertos" class="corCerta"></p>
+			</div>
+			<div class="box">
+				<h3>Resultados Errados</h3>		
+				<p id="resultadosErrados" class="corErrada"></p>
+			</div>
+		</div>
+
+	</section>
 
 <script type="text/javascript" src="js/script.js"></script>
 

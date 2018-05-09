@@ -9,6 +9,23 @@ h1 {
 }
 
 #promptNome {
+	text-align: center;
+}
+
+.campo-nome {
+	text-align: center;
+}
+
+.campo-nome input {
+	width: 50%;
+}
+
+.campos-perguntas {
+	text-align: center;
+}
+
+.campos-perguntas input {
+	width: 50%;
 	text-align: right;
 }
 
