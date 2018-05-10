@@ -25,18 +25,18 @@ if (resposta1 == "patolino") {
 
 if (resposta2 == "chiquinha") {
     var acertou2 = document.getElementById("resultadosCertos");
-    acertou2.innerHTML += "<span>CHIQUINHA, resposta correta!</span>";
+    acertou2.innerHTML += "<span class='span-resposta'>CHIQUINHA, resposta correta!</span>";
 } else {
     var errou2 = document.getElementById("resultadosErrados");
-    errou2.innerHTML += "<span>Errado. O correto é CHIQUINHA.</span>";
+    errou2.innerHTML += "<span class='span-resposta'>Errado. O correto é CHIQUINHA.</span>";
 }
 
 if (resposta3 == "azul") {
     var acertou3 = document.getElementById("resultadosCertos");
-    acertou3.innerHTML += "<span>AZUL, resposta correta!</span>";
+    acertou3.innerHTML += "<span class='span-resposta'>AZUL, resposta correta!</span>";
 } else {
     var errou3 = document.getElementById("resultadosErrados");
-    errou3.innerHTML += "<span>Errado. O correto é AZUL.</span>";
+    errou3.innerHTML += "<span class='span-resposta'>Errado. O correto é AZUL.</span>";
 }
 }
 

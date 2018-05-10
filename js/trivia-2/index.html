@@ -19,13 +19,21 @@
 			<fieldset class="campo-nome">
 				Nome: <input type="text" name="nome" placeholder="Insira seu nome">
 			</fieldset>
-			<fieldset class="campos-perguntas">
+			<fieldset>
 				<legend>Perguntas do quiz</legend>
-				nome do pato inimigo do Pernalonga: <input type="text" name="resposta1"><br>
-			  	nome da amiga do Chaves: <input type="text" name="resposta2"><br>
-				cor do cabelo da Ju: <input type="text" name="resposta3"><br>
+				<div class="campos-perguntas">
+				<div class="div-pergunta">
+					<div class="alinha-pergunta"><label>nome do pato inimigo do Pernalonga: </label><input class="classe-input" type="text" name="resposta1" /></div>
+				</div>
+				<div class="div-pergunta">
+			  		<div class="alinha-pergunta"><label>nome da amiga do Chaves: </label><input type="text" class="classe-input" name="resposta2" /></div>
+				</div>
+				<div class="div-pergunta">		
+					<div class="alinha-pergunta"><label>cor do cabelo da Ju: </label><input type="text" class="classe-input" name="resposta3" /></div>
+				</div>
+			</div>
 		  	</fieldset>
-		    <input type="button" onclick="pegarRespostas()" value="enviar">
+		    <input type="button" class="botao-enviar" onclick="pegarRespostas()" value="enviar">
 		</form>
 
 	</section>
