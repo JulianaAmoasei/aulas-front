@@ -3,11 +3,20 @@ var resposta1;
 var resposta2;
 var resposta3;
 
-function pegarRespostas() {
-    nome = document.forms["form"]["nome"].value;
-    resposta1 = document.forms["form"]["resposta1"].value;
-    resposta2 = document.forms["form"]["resposta2"].value;
-    resposta3 = document.forms["form"]["resposta3"].value;
+function pegaRespostas() {
+
+
+    nome = document.getElementById("nome").value;
+    resposta1 = document.getElementById("resposta1").value;
+    resposta2 = document.getElementById("resposta2").value;
+    resposta3 = document.getElementById("resposta3").value;
+
+/*
+    nome = document.forms["formulario"]["nome"].value;
+    resposta1 = document.forms["formulario"]["resposta1"].value;
+    resposta2 = document.forms["formulario"]["resposta2"].value;
+    resposta3 = document.forms["formulario"]["resposta3"].value;
+*/
 
     resposta1 = resposta1.toUpperCase();
     resposta2 = resposta2.toUpperCase();

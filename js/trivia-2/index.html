@@ -14,32 +14,29 @@
 	</header>
 
 	<section class="campos-formularios">
-
-		<form name="form" id="form" action="">
+		<form name="formulario" id="form" action="">
 			<fieldset class="campo-nome">
-				Nome: <input type="text" name="nome" placeholder="Insira seu nome">
+				Nome: <input type="text" id="nome" name="nome" placeholder="Insira seu nome">
 			</fieldset>
 			<fieldset>
 				<legend>Perguntas do quiz</legend>
 				<div class="campos-perguntas">
 				<div class="div-pergunta">
-					<div><label>nome do pato inimigo do Pernalonga: </label><input class="classe-input" type="text" name="resposta1" /></div>
+					<div><label>nome do pato inimigo do Pernalonga: </label><input class="classe-input" type="text" id="resposta1" name="resposta1" /></div>
 				</div>
 				<div class="div-pergunta">
-			  		<div><label>nome da amiga do Chaves: </label><input type="text" class="classe-input" name="resposta2" /></div>
+			  		<div><label>nome da amiga do Chaves: </label><input type="text" class="classe-input" id="resposta2" name="resposta2" /></div>
 				</div>
 				<div class="div-pergunta">		
-					<div><label>cor do cabelo da Ju: </label><input type="text" class="classe-input" name="resposta3" /></div>
+					<div><label>cor do cabelo da Ju: </label><input type="text" class="classe-input" id="resposta3" name="resposta3" /></div>
 				</div>
 			</div>
 		  	</fieldset>
-		    <input type="button" class="botao-enviar" onclick="pegarRespostas()" value="enviar">
+		    <input type="button" class="botao-enviar" onclick="pegaRespostas()" value="enviar">
 		</form>
-
 	</section>
 
 	<section class="campos-respostas">
-
 		<h2 id="promptNome"></h2>
 		<div class="boxResultados">
 			<div class="box">
@@ -51,7 +48,6 @@
 				<p id="resultadosErrados" class="corErrada"></p>
 			</div>
 		</div>
-
 	</section>
 
 <script type="text/javascript" src="js/script.js"></script>
