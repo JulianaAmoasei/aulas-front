@@ -5,18 +5,16 @@ var resposta3;
 
 function pegaRespostas() {
 
-
+/*
     nome = document.getElementById("nome").value;
     resposta1 = document.getElementById("resposta1").value;
     resposta2 = document.getElementById("resposta2").value;
     resposta3 = document.getElementById("resposta3").value;
-
-/*
+*/
     nome = document.forms["formulario"]["nome"].value;
     resposta1 = document.forms["formulario"]["resposta1"].value;
     resposta2 = document.forms["formulario"]["resposta2"].value;
     resposta3 = document.forms["formulario"]["resposta3"].value;
-*/
 
     resposta1 = resposta1.toUpperCase();
     resposta2 = resposta2.toUpperCase();
@@ -28,10 +26,10 @@ function pegaRespostas() {
 
     document.getElementById("promptNome").innerHTML = "Bem-vinda, " + nome + "!";
 
-if (resposta1 == "PATOLINO") {
+    if (resposta1 == "PATOLINO") {
         var acertou1 = document.getElementById("resultadosCertos");
         acertou1.innerHTML += "<span>PATOLINO, resposta correta!</span>";
-    } else {
+        } else {
         var errou1 = document.getElementById("resultadosErrados");
         errou1.innerHTML += "<span>Errado. O correto é PATOLINO.</span>";
     }
@@ -39,7 +37,7 @@ if (resposta1 == "PATOLINO") {
     if (resposta2 == "CHIQUINHA") {
         var acertou2 = document.getElementById("resultadosCertos");
         acertou2.innerHTML += "<span class='span-resposta'>CHIQUINHA, resposta correta!</span>";
-    } else {
+        } else {
         var errou2 = document.getElementById("resultadosErrados");
         errou2.innerHTML += "<span class='span-resposta'>Errado. O correto é CHIQUINHA.</span>";
     }
@@ -47,7 +45,7 @@ if (resposta1 == "PATOLINO") {
     if (resposta3 == "AZUL") {
         var acertou3 = document.getElementById("resultadosCertos");
         acertou3.innerHTML += "<span class='span-resposta'>AZUL, resposta correta!</span>";
-    } else {
+        } else {
         var errou3 = document.getElementById("resultadosErrados");
         errou3.innerHTML += "<span class='span-resposta'>Errado. O correto é AZUL.</span>";
     }
